@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/zarr-developers/zarr-extensions/main/codecs/wx1.lorenzo2d/schema.json",
+  "title": "Lorenzo 2-D spatial predictor codec",
+  "description": "Configuration schema for the wx1.lorenzo2d Zarr v3 Array-to-Array codec.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "const": "wx1.lorenzo2d"
+    },
+    "configuration": {
+      "type": "object",
+      "additionalProperties": false
+    }
+  },
+  "required": ["name"],
+  "additionalProperties": false
+}
